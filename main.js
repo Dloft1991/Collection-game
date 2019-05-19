@@ -1,3 +1,5 @@
+var game = document.querySelector('main');
+
 var props = {
     dog: {
         name: "dog",
@@ -40,6 +42,8 @@ var gameStart = function() {
     //does this work?
     console.log("goal: " + goal);
     console.log("dog: " + props.dog.value);
+    console.log("ship: " + props.ship.value);
+    console.log("gun: " + props.gun.value);
 }
 
 var addValues = function(props) {
@@ -50,3 +54,34 @@ var addValues = function(props) {
     chickenDinner();
 
 }
+
+let chickenDinner = function(){
+
+    //conditions for win/ loss
+    if (score === goal) {
+                // alert("You Win!");
+                $("#wins").text(wins ++);
+                console.log(wins);
+                gameStart();
+            }
+            else if (score >= goal) {
+                $("#losses").text(losses ++);
+                gameStart();
+            }
+           
+            
+        }
+
+gameStart();
+
+$("#dog").on("click", function() {
+    addValues(props.dog);
+});
+
+$("#ship").on("click", function() {
+    addValues(props.ship);
+});
+
+$("#gun").on("click", function() {
+    addValues(props.gun);
+});
