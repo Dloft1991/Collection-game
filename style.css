@@ -17,6 +17,7 @@ body {
     width: 300px;
 }
 h1{
+    font-family: 'Slackey', cursive;
     font-size: 300%;
     text-align: center;
     color: rgb(169, 199, 98);
@@ -27,6 +28,7 @@ p{
 }
 
 #enter{
+    font-family: 'Slackey', cursive;
     text-align: center;
     margin-left: 205%;
     color: rgb(169, 199, 98);
@@ -42,6 +44,7 @@ a{
     color: rgb(169, 199, 98);
 }
 #score{
+    font-family: 'Slackey', cursive;
     color: rgb(169, 199, 98);
 }
 #portal{
@@ -85,15 +88,18 @@ a{
         height: 15%;  
     }
     h3{
+        font-family: 'Slackey', cursive;
         font-size: 3px;
         color: rgb(169, 199, 98);
     }
     h1{
+        font-family: 'Slackey', cursive;
         font-size: 10px;
         text-align: center;
         color: rgb(169, 199, 98);
     }
     #enter{
+        font-family: 'Slackey', cursive;
         margin-left: 40%;
         color: white;
     }
