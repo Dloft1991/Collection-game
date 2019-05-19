@@ -28,6 +28,7 @@ p{
 
 #enter{
     text-align: center;
+    margin-left: 205%;
     color: rgb(169, 199, 98);
 }
 a{
@@ -36,16 +37,15 @@ a{
     text-decoration: none;
 }
 #uncertain{
-    text-align: center;
+    font-family: 'Slackey', cursive;
+    margin-left: 0px;
     color: rgb(169, 199, 98);
 }
 #score{
     color: rgb(169, 199, 98);
 }
 #portal{
-    width: 20%;
-    height: 20%;
-    margin-left: 40%;
+    margin-left: 160%;
 }
 .items{
     margin-top: 10%;
@@ -92,5 +92,12 @@ a{
         font-size: 10px;
         text-align: center;
         color: rgb(169, 199, 98);
+    }
+    #enter{
+        margin-left: 40%;
+        color: white;
+    }
+    #portal{
+        margin-left: 40%;
     }
 }
