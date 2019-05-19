@@ -1,0 +1,44 @@
+body {
+    background-image: url("images/thumb-1920-876590.png");
+    background-size: 100%;
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(35, 33, 60);
+}
+h1{
+    font-size: 300%;
+    text-align: center;
+    color: rgb(169, 199, 98);
+}
+p{
+    text-align: center;
+    color: rgb(169, 199, 98);
+}
+#enter{
+    text-align: center;
+    color: rgb(169, 199, 98);
+}
+a{
+    margin-left: 50%;
+    color: rgb(169, 199, 98);
+    text-decoration: none;
+}
+.score{
+    color: rgb(169, 199, 98);
+}
+#portal{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+}
+#gun{
+    width: 20%;
+    height: 20%;
+}
+#ship{
+    width: 20%;
+    height: 20%; 
+}
+#dog{
+    width: 20%;
+    height: 20%;  
+}
