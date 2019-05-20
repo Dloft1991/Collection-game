@@ -30,7 +30,7 @@ p{
 #enter{
     font-family: 'Slackey', cursive;
     text-align: center;
-    margin-left: 205%;
+    margin-left: 25%;
     color: rgb(169, 199, 98);
 }
 a{
@@ -40,19 +40,24 @@ a{
 }
 #uncertain{
     font-family: 'Slackey', cursive;
-    margin-left: 0px;
+    margin-left: 30%;
     color: rgb(169, 199, 98);
 }
 #score{
+    margin-left: 15%;
     font-family: 'Slackey', cursive;
     color: rgb(169, 199, 98);
 }
 #portal{
-    margin-left: 160%;
+    height: 400px;
+    width: 400px;
+    margin-left: -37%;
+    margin-top: 5%;
 }
 .items{
     margin-top: 10%;
     margin-left: 5%;
+    padding-left: 3%;
 }
 #gun{
     width: 20%;
@@ -67,13 +72,13 @@ a{
     height: 20%;  
 }
 
-@media screen and (max-Width: 800px) {
+@media screen and (max-Width: 1010px) {
     body {
         background-color: rgb(36, 36, 36);
     }
     .items{
         margin-top: 5%;
-        margin-left: 2%;
+        margin-left: 10%;
     }
     #gun{
         width: 15%;
@@ -100,10 +105,56 @@ a{
     }
     #enter{
         font-family: 'Slackey', cursive;
-        margin-left: 40%;
-        color: white;
+        margin-left: 30%;
+        color: rgb(169, 199, 98);
     }
     #portal{
+        height: 200px;
+        width: 200px;
+        margin-left: -30%;
+    }
+}
+
+@media screen and (max-Width: 500px){
+    body {
+        background-image: url("images/iphone\ background.jpg");
+        background-color: rgb(36, 36, 36);
+    }
+    #enter{
+        font-family: 'Slackey', cursive;
+        margin-left: 44%;
+        color: rgb(169, 199, 98);
+    }
+    #portal{
+        height: 200px;
+        width: 200px;
+        margin-left: -25%;
+    }
+    #score{
+        margin-left: 5%;
+        font-family: 'Slackey', cursive;
+        font-size: 10px;
+        color: rgb(169, 199, 98);
+    }
+    .items{
+        margin-top: 48%;
+        margin-left: 7%;
+    }
+    #gun{
+        width: 30%;
+        height: 30%;
+    }
+    #ship{
+        width: 30%;
+        height: 30%; 
+    }
+    #dog{
+        width: 30%;
+        height: 30%;  
+    }
+    #uncertain{
+        font-family: 'Slackey', cursive;
         margin-left: 40%;
+        color: rgb(169, 199, 98);
     }
 }
